@@ -1,0 +1,52 @@
+/* stylesheet */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.header-container {
+    display: flex;
+       background-color: #1F2937;
+       justify-content: space-around;
+       gap: 16px;
+       padding: 16px;
+}
+
+.header-title {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+.header-links {
+    font-size: 14px;
+    color: white;
+}
+
+.one {
+    margin-left: auto;
+}
+
+.header-content-container {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.signup {
+    align-content: flex-start;
+}
